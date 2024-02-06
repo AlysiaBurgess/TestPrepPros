@@ -59,14 +59,14 @@
             <form class="nestedgrid2" autocomplete="off">
             <form action="https://formspree.io/f/mnqeppbq" method="POST">
                 <div class="div1">
-                    Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname"><br>
-                    Email*<br><input type="email" size="30" required name="email"><br>
-                    Phone*<br><input type="tel" size="30" placeholder="(xxx)xxx-xxxx" required name="phone"><br>
-                    Personal Website<br><input type="url" size="30" name="website">
+                    Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname" aria-label="Name"><br>
+                    Email*<br><input type="email" size="30" required name="email" aria-label="Email"><br>
+                    Phone*<br><input type="tel" size="30" placeholder="(xxx)xxx-xxxx" required name="phone" aria-label="Phone"><br>
+                    Personal Website<br><input type="url" size="30" name="website" aria-label="Website">
                 </div>
             
                 <div class="div2">
-                    Current High School<br><input type="text" list="current" size="30" name="school"><br>
+                    Current High School<br><input type="text" list="current" size="30" name="school" aria-label="School"><br>
                     <datalist id="current">
                         <option value="Beaverbrook">
                         <option value="Birchwood">
@@ -75,9 +75,9 @@
                         <option value="Hainesville">
                         <option value="Other">
                     </datalist>
-                    Expected date of entry<br><input type="date" size="30" name="date"><br>
-                    Number of days/weeks desired<br><input type="number" size="30" name="time"><br>
-                    <br><input type= "submit" value="Help Me Boost My Scores!" class="button">  
+                    Expected date of entry<br><input type="date" size="30" name="date" aria-label="Date"><br>
+                    Number of days/weeks desired<br><input type="number" size="30" name="time" aria-label="Time"> <br>
+                    <br><input type= "submit" value="Help Me Boost My Scores!" class="button" aria-label="Button">  
                 </div>
             </form>
             
